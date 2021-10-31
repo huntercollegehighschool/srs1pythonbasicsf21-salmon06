@@ -4,6 +4,6 @@ Define a function twodigitodd that take a single integer argument (number). The 
 
 def twodigitodd(number):
   if number%2==0 and number/10 >= 1:
-    return true
+    return True
   else:
-    return false
+    return False
