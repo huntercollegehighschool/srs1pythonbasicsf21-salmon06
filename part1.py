@@ -3,6 +3,4 @@ Fix the code below so that it RETURNS the area of the triangle with the base and
 """
 
 def trianglearea(base, height)
-  base = input("Enter a base: ")
-  height = float(input("Enter a height: "))
-  print(base*height/2)
+  return(base*height/2)
